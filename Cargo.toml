@@ -1,0 +1,10 @@
+[package]
+name = "lpvz"
+version = "0.1.0"
+authors = ["Cassaundra <cass@cassaundra.io>"]
+edition = "2018"
+
+[dependencies]
+clap = "2.33.0"
+launchpad = { git = "https://github.com/cassaundra/launch-rs.git" }
+noise = "0.5.1"
