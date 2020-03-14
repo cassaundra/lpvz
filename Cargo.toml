@@ -5,6 +5,20 @@ authors = ["Cassaundra <cass@cassaundra.io>"]
 edition = "2018"
 
 [dependencies]
-clap = "2.33.0"
-launchpad = { git = "https://github.com/cassaundra/launch-rs.git" }
-noise = "0.5.1"
+# clap = "2.33.0"
+# launchpad = { git = "https://github.com/cassaundra/launch-rs.git" }
+interpolation = "0.2.0"
+launchpad = { path = "../launch-rs" }
+# midir = "0.5.0"
+noise = "0.6.0"
+palette = "0.5.0"
+rand = "0.7.2"
+# scrap = "0.5.0"
+# noise = "0.6.0"
+# gtk = "^0.6.0"
+# relm = "^0.16.0"
+# relm-derive = "^0.16.0"
+
+# [[bin]]
+# name = "experiment"
+# path = "src/bin/experiment.rs"
